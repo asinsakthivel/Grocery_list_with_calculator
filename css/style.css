@@ -1,0 +1,117 @@
+body {
+	width:1000px;
+	height:700px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+	font-weight:bold;
+	background:#d4d6d5;
+}
+
+#full {
+	 background-image:url('../download.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 500px;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#me p {
+	width:200px;
+    color: #333;
+	 margin-left:auto;
+    margin-right:auto;
+	font-size:15px;
+	font-weight:bold;
+}
+
+input[type="text"], input[type="number"] 
+{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	margin-left:150px;
+}
+
+input[type="text"]:focus, input[type="number"]:focus
+ {
+    border-color: #007bff;
+    outline: none;
+}
+
+#enter
+ {
+    background-color:#69706b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 3px;
+    font-size:12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+	margin-left:150px;
+}
+#deleteAll
+{
+	 background-color:#69706b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 3px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+	margin-left:50px;
+}
+
+button:hover
+ {
+    background-color: #0056b3;
+}
+
+#table 
+{
+    width: 500px;
+    border-collapse: collapse;
+    margin-left:auto;
+	margin-right:auto;
+}
+
+#table th, #table td {
+    padding: 5px;
+    border: 2px solid #ddd;
+    text-align: center;
+}
+
+#table th {
+    background-color:#69706b;
+    color: white;
+}
+
+#table td {
+    background-color: #f9f9f9;
+	text-align:left;
+}
+
+#table td img {
+    cursor: pointer;
+}
+
+#edit {
+    display: inline;
+}
+
+#delet {
+    display: inline;
+}
+#am
+{  
+
+}
+
